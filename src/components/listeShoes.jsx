@@ -46,9 +46,9 @@ const ListeShoes = () => {
       },
       {
         marque: "Reeboc",
-        modele: "Blanc",
+        modele: "BTM",
         taille: 45,
-        couleur: "Rouge Noir",
+        couleur: "Blanc",
         prix: "65€",
         imageUrl: "https://images.unsplash.com/photo-1613740105081-e88271c0211f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
@@ -68,14 +68,16 @@ const ListeShoes = () => {
   //console.log(shoesJSON);
 
   return (
-    <div>
+    <div class="product-grid ">
       {shoes.map((shoe, index) => (
-        <div key={index}>
+        <div key={index} style={{ border: 'solid'
+          
+        }}>
           <h2>{shoe.marque} - {shoe.modele}</h2>
           <p>Taille: {shoe.taille}</p>
           <p>Couleur: {shoe.couleur}</p>
           <p>prix: {shoe.prix}</p>
-          <img src={shoe.imageUrl} alt={`${shoe.marque} ${shoe.modele}`} style={{ width: '200px', height: 'auto' }} />
+          <img src={shoe.imageUrl} alt={`${shoe.marque} ${shoe.modele}`} class="grid_image" style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '5px', marginLeft: 'auto', marginRight: 'auto' }} />
         </div>
       ))}
       
