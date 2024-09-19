@@ -6,9 +6,10 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Login from "./components/login.jsx"
+import Login from "./components/login.jsx";
 import Home from "./components/Home.jsx"
-import register from "./components/register.jsx";
+import Register from "./components/register.jsx";
+import ButtonRegister from "./components/ButtonRegister.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,21 +18,26 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <div>login</div>,
+    element: <Login/>,
   },
   {
-    path: "/Home",
-    element: <div>Home</div>,
+    path: "/home",
+    element: <Home/>,
+  },
+
+  {/*{
+    path: "/home2",
+    element: <Home2/>,
+  }*/},
+  {
+    path: "/register",
+    element: <Register/>,
   },
 
   {
-    path: "/Home2",
-    element: <div>Home2</div>,
-  },
-  {
-    path: "/Register",
-    element: <div>Register</div>,
-  },
+    path: "/buttonRegister",
+    element: <ButtonRegister/>,
+  }
   
   
 ]);

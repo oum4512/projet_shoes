@@ -3,7 +3,7 @@ import React from 'react'
 const register = () => {
   return (
     <div>
-      <div>Register</div>
+     <p><Link to={"/register"}>Route vers la page s'enregistrer</Link></p>
     </div>
   )
 }

@@ -6,7 +6,7 @@ const Home = () => {
       <h1>Bienvenue à la page d'accueil</h1>
       <p>Cliquez sur un produit pour voir plus de détails :</p>
       
-       <p><Link to={"Home"}>Route vers la page home</Link></p>
+       <p><Link to={"/"}>Route vers l'accueil</Link></p>
        
     </div>
   )

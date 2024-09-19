@@ -1,13 +1,32 @@
+.storage{
+  text-align: right;
+}
+#imagelogo{
+  text-align: center;
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+  
+  
+}
 .product-grid {
    display: grid;
    grid-template-columns: 300px 300px 300px 300px;
    margin: 5px;
 }
 
-
+.bouton{
+  background-color: white;
+  font-size: 16px;
+  padding: 1px;
+  text-align: right;
+  
+  
+}
 
 .text-center {
   text-align: center;
+
 }
 
 
