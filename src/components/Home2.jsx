@@ -5,7 +5,7 @@ const Home2 = () => {
   return (
     <div>
       <h1>Route 1 home1</h1>
-      <p><Link to={"home2"}>Route vers home2</Link></p>
+      <p><Link to={"ButtonRegister"}>Route vers la page register</Link></p>
     </div>
   )
 }

@@ -1,11 +1,11 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import ListeShoes from "./components/ListeShoes";
-import Login from "./components/Login";
+import Login from "./assets/pages/Login";
 import LogosWeb from "./components/LogosWeb";
-import Home from "./components/Home";
+import Home from "./assets/pages/Home";
 import Home2 from "./components/Home2";
-import ButtonRegister from "./components/ButtonRegister";
+import ButtonRegister from "./assets/pages/ButtonRegister";
 
 const App = () => {
   const [username, setUsername] = useState('');
@@ -41,8 +41,6 @@ const App = () => {
         <button onClick={handleSave}>Sauvegarder</button>
       </div>
         <Login />
-        
-        
         <ListeShoes />
         <Home />
         <Home2 />

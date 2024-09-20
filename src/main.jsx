@@ -6,10 +6,10 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Login from "./components/login.jsx";
-import Home from "./components/Home.jsx"
+import Login from "./assets/pages/Login.jsx";
+import Home from "./assets/pages/Home.jsx"
 import Register from "./components/register.jsx";
-import ButtonRegister from "./components/ButtonRegister.jsx";
+import ButtonRegister from "./assets/pages/ButtonRegister.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,17 +25,17 @@ const router = createBrowserRouter([
     element: <Home/>,
   },
 
-  {/*{
+  {
     path: "/home2",
-    element: <Home2/>,
-  }*/},
+    element: <home2/>,
+  },
   {
     path: "/register",
     element: <Register/>,
   },
 
   {
-    path: "/buttonRegister",
+    path: "/buttonregister",
     element: <ButtonRegister/>,
   }
   
