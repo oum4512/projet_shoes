@@ -1,11 +1,11 @@
-import React from 'react';
+{/*import React from 'react';
 import LogosWeb from "./LogosWeb.jsx";
 import Navbarlinks from './Navbarlinks.jsx';
-import Login from "../assets/pages/Login.jsx";
-import ButtonRegister from '../assets/pages/ButtonRegister.jsx';
-const navbar = () => {
+import Login from "./Login.jsx";
+import ButtonRegister from './ButtonRegister.jsx';
+const Navbar = () => {
   return (
-    <div id="navbar">
+    <div id="navbar" className='flex'>
      <LogosWeb/> 
      <Navbarlinks/>
      <Login/>
@@ -14,4 +14,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar*/}

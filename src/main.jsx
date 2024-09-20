@@ -6,10 +6,10 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Login from "./assets/pages/Login.jsx";
-import Home from "./assets/pages/Home.jsx"
+import Login from "./components/Login.jsx";
+import Home from "./pages/Home.jsx"
 import Register from "./components/register.jsx";
-import ButtonRegister from "./assets/pages/ButtonRegister.jsx";
+import ButtonRegister from "./components/ButtonRegister.jsx";
 
 const router = createBrowserRouter([
   {

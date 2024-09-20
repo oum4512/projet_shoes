@@ -33,6 +33,15 @@
 
 }
 
+.navbar {
+  margin: 0;
+  padding: 0;
+  display:flex;
+  background-color: rgb(238, 238, 238);
+  justify-content: space-between;
+  text-align: right;
+}
+
 
 
 

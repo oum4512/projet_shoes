@@ -6,6 +6,7 @@ const navbarlinks = () => {
     <div class="links">
       <a id="login" href='#'>Login</a>
       <a id="register" href='#'>Register</a>
+      <a id="ButtonRegister" href='#'>ButtonRegister</a>
     </div>
     </>
   )
