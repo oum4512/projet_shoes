@@ -7,8 +7,8 @@ const Home = () => {
     <>
        
     <div>
-      <h1>Bienvenue à la page d'accueil</h1>
-      <p>Cliquez sur un produit pour voir plus de détails :</p>
+      <h1>Bienvenue sur Fun Baskets</h1>
+      <p>D'incroyable baskets vous attendent ! </p>
       
        <p><Link to={"/"}>Route vers l'accueil</Link></p>
        

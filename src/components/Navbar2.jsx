@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom"
 
 const Navbar2 = ({ onClick }) => {
   return (
@@ -27,8 +28,16 @@ const Navbar2 = ({ onClick }) => {
         {/* Sign-in Button */}
         <li className="button">
           <button onClick={onClick}>
-            S'identifier
+          <Link to="/login">Login</Link>
           </button>
+        </li>
+        <li>
+           {/* register Button */}
+        <li className="button">
+          <button onClick={onClick}>
+          <Link to="/register">register</Link>
+          </button>
+        </li>
         </li>
       </ul>
     </nav>

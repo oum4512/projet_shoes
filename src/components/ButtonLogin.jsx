@@ -2,14 +2,14 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 
-const ButtonRegister = ({ onClick }) => {
+const ButtonLogin = ({ onClick }) => {
   return (
     <div class="button">
-    <button onClick={onClick}> {/*</div>style={styles.button}>*/}
-      S'identifier
+    <button onClick={onClick}> login
+    {/*<Link to="/login">Login</Link>*/}
     </button>
     </div> 
   );
 };
 
-export default ButtonRegister;
+export default ButtonLogin;
