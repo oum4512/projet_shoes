@@ -10,6 +10,7 @@ import Login from "./components/Login.jsx";
 import Home from "./pages/Home.jsx"
 import Register from "./components/register.jsx";
 import ButtonRegister from "./components/ButtonLogin.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -39,7 +40,10 @@ const router = createBrowserRouter([
     element: <ButtonRegister/>,
   },
 
-
+  {
+    path: "/contact",
+    element: <Contact/>,
+  },
   
   
   

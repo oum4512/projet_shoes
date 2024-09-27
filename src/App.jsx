@@ -2,13 +2,15 @@
 import React, { useState, useEffect } from 'react';
 import ListeShoes from "./components/ListeShoes";
 //import LogosWeb from "./components/LogosWeb";
-import Home from "./pages/Home";
-import Home2 from "./pages/Home2";
+//import Home from "./pages/Home";
+//import Home2 from "./pages/Home2";
 //import ButtonRegister from "./components/ButtonRegister";
 import Navbar2 from './components/Navbar2';
 import Hero from './components/Hero';
-import Register from './components/register';
-import Login from "./components/Login";
+import Footer from './components/Footer';
+import Contact from './pages/Contact';
+//import Register from './components/register';
+//import Login from "./components/Login";
 const App = () => {
   const [username, setUsername] = useState('');
 
@@ -33,7 +35,9 @@ const App = () => {
     <>
        <Navbar2/>
        <Hero/>
+      
       {/*<LogosWeb />
+       <Contact/>
       <ButtonRegister />*/}
       {/*<div class="storage">
         <input
@@ -47,6 +51,7 @@ const App = () => {
         {/*<Login />
         <Register/>*/}
         <ListeShoes />
+        <Footer/>
        {/* <Home />
         <Home2 />*/}
         
