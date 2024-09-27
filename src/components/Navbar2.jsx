@@ -3,10 +3,10 @@ import {Link} from "react-router-dom"
 
 const Navbar2 = ({ onClick }) => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" >
       <ul style={{ listStyleType: 'none', display: 'flex', alignItems: 'center', padding: 0 }}>
         {/* Logo */}
-        <li id="imagelogo" style={{ marginRight: '20px' }}>
+        <li id="imagelogo" style={{ marginRight: '20px', marginLeft: '20px' }}>
           <img src="/ShoesShop.svg" style={{ width: '150px', height: '120px' }} alt="Logo" />
         </li>
 
@@ -26,14 +26,14 @@ const Navbar2 = ({ onClick }) => {
         </li>
 
         {/* Sign-in Button */}
-        <li className="button">
+        <li className="button" style={{ marginRight: '20px' }}>
           <button onClick={onClick}>
           <Link to="/login">Login</Link>
           </button>
         </li>
         <li>
            {/* register Button */}
-        <li className="button">
+        <li className="button" style={{ marginRight: '20px' }}>
           <button onClick={onClick}>
           <Link to="/register">register</Link>
           </button>

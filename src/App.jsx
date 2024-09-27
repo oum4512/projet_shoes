@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Home2 from "./pages/Home2";
 //import ButtonRegister from "./components/ButtonRegister";
 import Navbar2 from './components/Navbar2';
+import Hero from './components/Hero';
 import Register from './components/register';
 import Login from "./components/Login";
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
   return (
     <>
        <Navbar2/>
+       <Hero/>
       {/*<LogosWeb />
       <ButtonRegister />*/}
       {/*<div class="storage">
@@ -45,8 +47,8 @@ const App = () => {
         {/*<Login />
         <Register/>*/}
         <ListeShoes />
-        <Home />
-        <Home2 />
+       {/* <Home />
+        <Home2 />*/}
         
     </>
   );
