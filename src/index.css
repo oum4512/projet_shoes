@@ -8,13 +8,19 @@
     border-radius: 15px;
   }
   
+  #imagesac{
+    display: flex;
+    justify-content: flex-end; /* Aligner les éléments à droite */
+    padding: 10px;
+    
+  }
   /* .navbar li {
     
     margin-right: 20px;
   } */
   
   .navbar .searchbar {
-   
+    
     flex-grow: 1;
   }
   
@@ -27,6 +33,23 @@
     align-content: space-between;
     border-radius: 15px 15px 15px ;
   }
+
+  .about{
+    text-align: center;
+  }
+
+  .envoi{
+    text-align: center;
+  }
+
+  .client{
+    text-align: center;
+  }
+
+  .privée{
+    text-align: center;
+  }
+  
 
 
 

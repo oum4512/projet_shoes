@@ -12,9 +12,10 @@ const Footer = () => {
         {/* Section 2: Liens de navigation */}
         <div>
           <ul style={styles.footerLinks}>
-            <li><a href="/about" style={styles.footerLink}>À propos</a></li>
+            <li><a href="/apropos" style={styles.footerLink}>À propos</a></li>
             <li><a href="/services" style={styles.footerLink}>Services</a></li>
             <li><a href="/contact" style={styles.footerLink}>Contact</a></li>
+            <li><a href="/envoilivraison" style={styles.footerLink}>Envoi et livraison</a></li>
             <p></p>
             <li><a href="/privacy" style={styles.footerLink}>Politique de confidentialité</a></li>
           </ul>

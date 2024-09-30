@@ -51,7 +51,7 @@ const App = () => {
         {/*<Login />
         <Register/>*/}
         <ListeShoes />
-        <Footer/>
+        <Footer/>  
        {/* <Home />
         <Home2 />*/}
         

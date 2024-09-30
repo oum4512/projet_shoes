@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div >
+    <div>
       <h1>Nous contacter</h1>
-      <form action="" style={{ display: 'flex', flexDirection: 'column', width: '450px'}}>
+      <form action="" style={{ display: 'flex', textAlign: 'center', flexDirection: 'column', width: '450px'}}>
         <label for="name">Name</label>
         <input type="text" name='name'/>
         <label for="email">Email</label>

@@ -11,6 +11,10 @@ import Home from "./pages/Home.jsx"
 import Register from "./components/register.jsx";
 import ButtonRegister from "./components/ButtonLogin.jsx";
 import Contact from "./pages/Contact.jsx";
+import Services from "./pages/Services.jsx";
+import EnvoiLivraison from "./pages/EnvoiLivraison.jsx";
+import Apropos from "./pages/Apropos.jsx";
+import Privacy from "./pages/Privacy.jsx";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +47,26 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact/>,
+  },
+
+  {
+    path: "/services",
+    element: <Services/>,
+  },
+
+  {
+    path: "/envoilivraison",
+    element: <EnvoiLivraison/>,
+  },
+
+  {
+    path: "/apropos",
+    element: <Apropos/>,
+  },
+
+  {
+    path: "/privacy",
+    element: <Privacy/>,
   },
   
   
